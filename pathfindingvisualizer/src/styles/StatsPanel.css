@@ -1,0 +1,44 @@
+/* StatsPanel.css — stats and explanation styling */
+.stats-panel {
+  min-width: 240px;
+  padding: 16px;
+  border-radius: 20px;
+  background: #1a1a2e;
+  box-shadow: 0 0 20px rgba(79, 172, 254, 0.3);
+  color: #d8e7ff;
+}
+.stats-panel h3 {
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+.stats-panel ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 14px 0;
+}
+.stats-panel li {
+  margin-bottom: 8px;
+}
+.stats-panel strong { color: #9aaeff; }
+.stats-panel li span {
+  color: #4facfe;
+  font-weight: 700;
+}
+.explain .explanation {
+  max-height: 8em;
+  overflow: auto;
+  line-height: 1.5;
+  padding: 10px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.04);
+}
+.streaming {
+  font-style: italic;
+  opacity: 0.85;
+  color: #c5f4ff;
+}
+.gemini-badge {
+  font-size: 12px;
+  color: #76e4ff;
+  margin-top: 8px;
+}

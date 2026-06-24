@@ -1,0 +1,33 @@
+/* App.css — layout and responsive sizing */
+:root {
+  --node-size: 18px;
+  --gap: 2px;
+  --bg: #0b1220;
+  --panel: #161b2f;
+  --text: #f8f9ff;
+}
+body,
+html,
+#root {
+  height: 100%;
+  margin: 0;
+  font-family: system-ui, Arial, sans-serif;
+  background: radial-gradient(circle at top, #151a3d 0%, #07090f 60%, #040509 100%);
+  color: var(--text);
+}
+.app-root {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 16px;
+}
+.main-area {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+@media (min-width: 900px) {
+  :root {
+    --node-size: 18px;
+  }
+}
